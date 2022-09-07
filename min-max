@@ -12,10 +12,6 @@ namespace Hello
             int[] array = new int[n];
             int max = int.Parse(II[0]);
             int min = int.Parse(II[0]);
-            /*for(int j = 0;j<n;j++)
-            {
-                array[j] = int.Parse(II[j]);
-            }*/
             for(int k = 0;k<II.Length;k++)
             {
                 if(int.Parse(II[k])>max)
